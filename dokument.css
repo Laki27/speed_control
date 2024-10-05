@@ -1,0 +1,70 @@
+body {
+    background-color:#06213d;
+}
+
+h1 {
+    color: #0fea42;
+    border-bottom:  3px solid#0fea42;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1000px;
+}
+#kutija {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+    max-height: 770px;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+video {
+    flex: 1;
+    box-shadow:
+  31.2px 14.1px 2.2px rgba(0, 0, 0, 0.077),
+  38.5px 17.4px 5.3px rgba(0, 0, 0, 0.136),
+  41.7px 18.8px 10px rgba(0, 0, 0, 0.181),
+  45.2px 20.4px 17.9px rgba(0, 0, 0, 0.219),
+  53.6px 24.2px 33.4px rgba(0, 0, 0, 0.259),
+  93px 42px 80px rgba(0, 0, 0, 0.36)
+;
+}
+
+#slider {
+    background-color: #8741D9;
+    width: 7%;
+    margin-left: 3%;
+    height: 100%;
+    display: inline-block;
+    color: yellow;
+    position: relative;
+    border-color: black;
+    border: 2px solid black;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='34' height='41' viewport='0 0 100 100' style='fill:black;font-size:20px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    box-shadow:
+    31.2px 14.1px 2.2px rgba(0, 0, 0, 0.077),
+    38.5px 17.4px 5.3px rgba(0, 0, 0, 0.136),
+    41.7px 18.8px 10px rgba(0, 0, 0, 0.181),
+    45.2px 20.4px 17.9px rgba(0, 0, 0, 0.219),
+    53.6px 24.2px 33.4px rgba(0, 0, 0, 0.259),
+    93px 42px 80px rgba(0, 0, 0, 0.36)
+  ;
+}
+
+#vrednost {
+    width: 100%;
+    height: 20px;
+    background-color: rgba(244, 6, 6, 0.39);
+    position: absolute;
+    bottom: 20%;
+}
+
+#input_file {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1000px;
+    color: whitesmoke;
+}
